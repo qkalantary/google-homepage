@@ -1,14 +1,23 @@
 li{
     list-style-type: none;
     float:right;
+    font-family: arial;
+    font-size: 14;
 }
 
 div{
     display:block;
-    width: 100px;
+    width: 65px;
 }
 
-img{
+.box{
+    position: relative;
+    width: 26%;
+    height: auto;
+    margin-left: 6;
+}
+
+.goog{
     width: 23%;
     height: auto;
     position: absolute;
@@ -21,8 +30,59 @@ input{
     font-size: 13pt;
     height: 5.5%;
     width: 55%;
-     position: absolute;
+    position: absolute;
     top: 0; bottom: 50; left: 0; right:0;
     margin: auto;
 }
 
+.mic{
+    position: absolute;
+    color: gray;
+    height: 4%;
+    top: 0; bottom:50px; left: 620; right:0;
+    margin: auto;
+}
+
+.button1{
+    margin-left: 470px;
+    margin-top: 300px; 
+    padding: 8;
+    font-family: Arial;
+    -webkit-border-radius: 3;
+    background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+.button2{
+    padding:8;
+    font-family: Arial;
+    -webkit-border-radius: 3;
+    background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+span{
+    position:fixed;
+    float:left;
+    left:0px;
+    height: 40;
+    bottom:0px;
+    width:100%;
+    background:#f2f2f2;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+p{
+    display: inline;
+    font-family: Arial;
+    color: #666;
+    font-size: 14;
+    padding-left: 25;
+    line-height: 2.5;
+}
+
+.leftFoot{
+    display: inline;
+    margin-left: 700;
+}
